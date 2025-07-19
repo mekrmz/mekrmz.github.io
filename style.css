@@ -1,0 +1,143 @@
+/* Genel Sayfa Stilleri */
+body {
+    background-color: #121212; 
+    color: #EAEAEA; 
+    font-family: 'Inter', sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px; 
+    text-align: center;
+}
+
+/* Whoami sayfasındaki container'ı biraz daha geniş yapar */
+.container.whoami-page {
+    max-width: 900px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; 
+    border: 3px solid #333;
+    object-fit: cover; 
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.5rem; 
+    margin: 0;
+    font-weight: 700;
+}
+
+footer {
+    margin-top: 40px;
+    color: #505050;
+    font-size: 0.875rem; 
+}
+
+/* ----- Ana Sayfa (index.html) Özel Stilleri ----- */
+
+.bio {
+    font-size: 1.125rem;
+    color: #A0A0A0; 
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.link-button {
+    background-color: #282828;
+    color: #EAEAEA;
+    text-decoration: none;
+    padding: 18px 20px;
+    border-radius: 10px;
+    font-size: 1rem; 
+    font-weight: 700;
+    transition: all 0.2s ease-in-out; 
+    border: 2px solid #333;
+}
+
+.link-button:hover {
+    background-color: #333;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.social-icons {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.social-icons a {
+    color: #A0A0A0;
+    font-size: 1.75rem;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #EAEAEA;
+    transform: scale(1.15);
+}
+
+/* ----- Whoami Sayfası (whoami.html) Özel Stilleri ----- */
+
+.whoami-content {
+    text-align: left;
+    margin-top: 30px;
+    color: #A0A0A0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.whoami-content h2 {
+    color: #EAEAEA;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.whoami-content p {
+    margin-bottom: 15px;
+}
+
+.back-button {
+    display: inline-block;
+    background-color: #282828;
+    color: #EAEAEA;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 1rem; 
+    font-weight: 700;
+    transition: all 0.2s ease-in-out; 
+    border: 2px solid #333;
+    margin-top: 30px;
+}
+
+.back-button:hover {
+    background-color: #333;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.custom-link {
+  color: #FFFFFF;
+   /* "text-decoration: none;" İsteğe bağlı: Altındaki çizgiyi kaldırır */
+}
