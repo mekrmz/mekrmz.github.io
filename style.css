@@ -1,4 +1,3 @@
-/* Genel Sayfa Stilleri */
 body {
     background-color: #121212; 
     color: #EAEAEA; 
@@ -18,7 +17,6 @@ body {
     text-align: center;
 }
 
-/* Whoami sayfasındaki container'ı biraz daha geniş yapar */
 .container.whoami-page {
     max-width: 900px;
 }
@@ -44,7 +42,7 @@ footer {
     font-size: 0.875rem; 
 }
 
-/* ----- Ana Sayfa (index.html) Özel Stilleri ----- */
+
 
 .bio {
     font-size: 1.125rem;
@@ -96,7 +94,7 @@ footer {
     transform: scale(1.15);
 }
 
-/* ----- Whoami Sayfası (whoami.html) Özel Stilleri ----- */
+
 
 .whoami-content {
     text-align: left;
@@ -139,5 +137,4 @@ footer {
 }
 .custom-link {
   color: #FFFFFF;
-   /* "text-decoration: none;" İsteğe bağlı: Altındaki çizgiyi kaldırır */
 }
